@@ -1,5 +1,7 @@
+//windowはブラウザのウィンドウ
 var synth = window.speechSynthesis;
 
+//documentはブラウザに表示中のページ
 var inputForm = document.querySelector('form');
 var inputTxt = document.querySelector('.txt');
 var voiceSelect = document.querySelector('select');
