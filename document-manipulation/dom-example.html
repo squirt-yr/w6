@@ -16,8 +16,11 @@
       para.textContent = 'これは追加したパラグラフです。';
       sect.appendChild(para);
       
-      link.textContent = 'Mozilla Developer Network';
-      link.href = 'https://developer.mozilla.org';
+      
+      const text = document.createTextNode(' — the premier source for web development knowledge.');
+      const linkPara = document.querySelector('p');
+      linkPara.appendChild(text);
+
 
       </script>
   </body>
